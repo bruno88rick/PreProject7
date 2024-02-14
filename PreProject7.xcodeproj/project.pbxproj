@@ -7,16 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B62B1F032B769F1E00B99899 /* DeletingWithOnDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62B1F022B769F1E00B99899 /* DeletingWithOnDelete.swift */; };
+		B62B1F052B76A9C100B99899 /* UserDefaults&AppStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62B1F042B76A9C100B99899 /* UserDefaults&AppStorage.swift */; };
+		B62B1F072B76B85A00B99899 /* UsingCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62B1F062B76B85A00B99899 /* UsingCodable.swift */; };
 		B69F5AFE2B74CBDC0093F62E /* PreProject7App.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69F5AFD2B74CBDC0093F62E /* PreProject7App.swift */; };
-		B69F5B002B74CBDC0093F62E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69F5AFF2B74CBDC0093F62E /* ContentView.swift */; };
+		B69F5B002B74CBDC0093F62E /* ObservableClass&SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69F5AFF2B74CBDC0093F62E /* ObservableClass&SheetView.swift */; };
 		B69F5B022B74CBE10093F62E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B69F5B012B74CBE10093F62E /* Assets.xcassets */; };
 		B69F5B052B74CBE10093F62E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B69F5B042B74CBE10093F62E /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B62B1F022B769F1E00B99899 /* DeletingWithOnDelete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeletingWithOnDelete.swift; sourceTree = "<group>"; };
+		B62B1F042B76A9C100B99899 /* UserDefaults&AppStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults&AppStorage.swift"; sourceTree = "<group>"; };
+		B62B1F062B76B85A00B99899 /* UsingCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingCodable.swift; sourceTree = "<group>"; };
 		B69F5AFA2B74CBDC0093F62E /* PreProject7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PreProject7.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B69F5AFD2B74CBDC0093F62E /* PreProject7App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreProject7App.swift; sourceTree = "<group>"; };
-		B69F5AFF2B74CBDC0093F62E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B69F5AFF2B74CBDC0093F62E /* ObservableClass&SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ObservableClass&SheetView.swift"; sourceTree = "<group>"; };
 		B69F5B012B74CBE10093F62E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B69F5B042B74CBE10093F62E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +58,10 @@
 			isa = PBXGroup;
 			children = (
 				B69F5AFD2B74CBDC0093F62E /* PreProject7App.swift */,
-				B69F5AFF2B74CBDC0093F62E /* ContentView.swift */,
+				B69F5AFF2B74CBDC0093F62E /* ObservableClass&SheetView.swift */,
+				B62B1F022B769F1E00B99899 /* DeletingWithOnDelete.swift */,
+				B62B1F042B76A9C100B99899 /* UserDefaults&AppStorage.swift */,
+				B62B1F062B76B85A00B99899 /* UsingCodable.swift */,
 				B69F5B012B74CBE10093F62E /* Assets.xcassets */,
 				B69F5B032B74CBE10093F62E /* Preview Content */,
 			);
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B69F5B002B74CBDC0093F62E /* ContentView.swift in Sources */,
+				B69F5B002B74CBDC0093F62E /* ObservableClass&SheetView.swift in Sources */,
 				B69F5AFE2B74CBDC0093F62E /* PreProject7App.swift in Sources */,
+				B62B1F032B769F1E00B99899 /* DeletingWithOnDelete.swift in Sources */,
+				B62B1F072B76B85A00B99899 /* UsingCodable.swift in Sources */,
+				B62B1F052B76A9C100B99899 /* UserDefaults&AppStorage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
